@@ -1,0 +1,29 @@
+18:12:27 installing vllm
+18:24:58 versions: 0.31.0 2.13.0+cu130
+18:25:01 gpu check rc=0 2 Tesla T4 262144.0 
+18:25:01 START Qwen/Qwen3-8B
+18:28:28 Qwen/Qwen3-8B preflight OK on ISC-0144: 'dismissed' / 'allowed'
+18:46:17 Qwen/Qwen3-8B text: 380 items in 1069s, acc 0.484, unparsed 0
+18:46:31 Qwen/Qwen3-8B name: 380 items in 13s, acc 0.647, unparsed 0
+18:46:36 END Qwen/Qwen3-8B rc=0
+18:46:36 START Qwen/Qwen2.5-7B-Instruct
+18:49:59 Qwen/Qwen2.5-7B-Instruct preflight OK on ISC-0144: 'allowed' / 'Allowed'
+19:04:35 Qwen/Qwen2.5-7B-Instruct text: 380 items in 876s, acc 0.474, unparsed 0
+19:04:47 Qwen/Qwen2.5-7B-Instruct name: 380 items in 12s, acc 0.711, unparsed 0
+19:04:54 END Qwen/Qwen2.5-7B-Instruct rc=0
+19:04:54 START mistralai/Mistral-7B-Instruct-v0.3
+19:08:29 mistralai/Mistral-7B-Instruct-v0.3 preflight OK on ISC-0144: ' Allowed (for' / ' Pending (as'
+19:28:41 mistralai/Mistral-7B-Instruct-v0.3 text: 380 items in 1212s, acc 0.653, unparsed 2
+19:28:55 mistralai/Mistral-7B-Instruct-v0.3 name: 380 items in 13s, acc 0.408, unparsed 160
+19:29:00 END mistralai/Mistral-7B-Instruct-v0.3 rc=0
+19:29:00 START ibm-granite/granite-3.3-8b-instruct
+19:32:46 ibm-granite/granite-3.3-8b-instruct preflight OK on ISC-0144: 'Dismissed' / 'allowed'
+19:58:32 ibm-granite/granite-3.3-8b-instruct text: 380 items in 1547s, acc 0.326, unparsed 13
+19:58:50 ibm-granite/granite-3.3-8b-instruct name: 380 items in 18s, acc 0.379, unparsed 6
+19:58:57 END ibm-granite/granite-3.3-8b-instruct rc=0
+19:58:57 START microsoft/Phi-4-mini-instruct
+20:01:18 microsoft/Phi-4-mini-instruct preflight OK on ISC-0144: 'Dismissed' / 'Dismissing.'
+20:11:30 microsoft/Phi-4-mini-instruct text: 380 items in 612s, acc 0.347, unparsed 0
+20:11:37 microsoft/Phi-4-mini-instruct name: 380 items in 6s, acc 0.287, unparsed 0
+20:11:43 END microsoft/Phi-4-mini-instruct rc=0
+20:11:43 ALL DONE: 5/5 models wrote results: Qwen3-8B, Qwen2.5-7B-Instruct, Mistral-7B-Instruct-v0.3, granite-3.3-8b-instruct, Phi-4-mini-instruct
